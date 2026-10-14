@@ -1,0 +1,31 @@
+[
+  {
+    "id": "01-cabin",
+    "prompt": "Cinematic environment concept: a warm timber cabin beside a still alpine lake, mountain silhouettes, autumn pines, cool blue predawn haze, glowing window, no people, visually coherent wide composition, photorealistic film still. No text or watermark.",
+    "size": "16:9",
+    "model": "gpt-image-2-vip",
+    "quality": "low",
+    "resolution": "1K",
+    "n": 1
+  },
+  {
+    "id": "02-dawn",
+    "prompt": "Keep the exact cabin, shoreline and camera position from the reference. Change only the atmosphere to clear sunrise, warm golden light entering from the right, subtle mist over the still lake, cinematic realism. No text.",
+    "size": "16:9",
+    "reference": "01-cabin",
+    "model": "gpt-image-2-vip",
+    "quality": "low",
+    "resolution": "1K",
+    "n": 1
+  },
+  {
+    "id": "03-night",
+    "prompt": "Keep the exact cabin architecture, shoreline and camera angle from the reference. Change the environment to blue moonlit night, warm lit windows, gentle starry sky and calm reflections, cinematic realism. No text.",
+    "size": "16:9",
+    "reference": "01-cabin",
+    "model": "gpt-image-2-vip",
+    "quality": "low",
+    "resolution": "1K",
+    "n": 1
+  }
+]

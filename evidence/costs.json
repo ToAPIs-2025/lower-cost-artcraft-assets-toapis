@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-14",
+  "completed_images": 3,
+  "quoted_total_usd": "0.0057",
+  "actual_total_usd": null,
+  "actual_credits": null,
+  "billing_source": "API billing is null; account owner reconciliation pending",
+  "runs": [
+    {
+      "case_id": "01-cabin",
+      "date": "2026-10-14",
+      "task_id": "tsk_img_01M4W66K6PVXG20FB7CCTDCEXN",
+      "request": {
+        "model": "gpt-image-2-vip",
+        "prompt": "Cinematic environment concept: a warm timber cabin beside a still alpine lake, mountain silhouettes, autumn pines, cool blue predawn haze, glowing window, no people, visually coherent wide composition, photorealistic film still. No text or watermark.",
+        "n": 1,
+        "size": "16:9",
+        "resolution": "1K",
+        "quality": "low"
+      },
+      "status": "completed",
+      "billing": null,
+      "actual_cost_usd": null,
+      "unit_quote_usd": "0.0019",
+      "sha256": "574c5bd2b0e297d1bf435820759f4ccd0ae545234fe0e7c84308be4f129d2c14",
+      "elapsed_seconds": 41.52,
+      "scope": "External ToAPIs asset script validates generation and reference edits. PNGs and parameter manifests are ready for import; ArtCraft canvas import and native providers remain untested.",
+      "upstream_repo": "storytold/artcraft",
+      "upstream_sha": "d4e4ac69bbd93d237eaf5d0260bc6a5ff3a5e373",
+      "pixels": [
+        1536,
+        864
+      ]
+    },
+    {
+      "case_id": "02-dawn",
+      "date": "2026-10-14",
+      "task_id": "tsk_img_01M4W67XD4GD2TWR44JDE0CAMT",
+      "request": {
+        "model": "gpt-image-2-vip",
+        "prompt": "Keep the exact cabin, shoreline and camera position from the reference. Change only the atmosphere to clear sunrise, warm golden light entering from the right, subtle mist over the still lake, cinematic realism. No text.",
+        "n": 1,
+        "size": "16:9",
+        "resolution": "1K",
+        "quality": "low",
+        "reference_images": [
+          "<uploaded URL omitted>"
+        ]
+      },
+      "status": "completed",
+      "billing": null,
+      "actual_cost_usd": null,
+      "unit_quote_usd": "0.0019",
+      "sha256": "a843b6a9aea0ce707f19d055c77f5649034898b74da5377501a6085ec6308cd0",
+      "elapsed_seconds": 67.62,
+      "scope": "External ToAPIs asset script validates generation and reference edits. PNGs and parameter manifests are ready for import; ArtCraft canvas import and native providers remain untested.",
+      "upstream_repo": "storytold/artcraft",
+      "upstream_sha": "d4e4ac69bbd93d237eaf5d0260bc6a5ff3a5e373",
+      "pixels": [
+        1536,
+        864
+      ]
+    },
+    {
+      "case_id": "03-night",
+      "date": "2026-10-14",
+      "task_id": "tsk_img_01M4W69ZJW0R4GWVVSKV6KHZPQ",
+      "request": {
+        "model": "gpt-image-2-vip",
+        "prompt": "Keep the exact cabin architecture, shoreline and camera angle from the reference. Change the environment to blue moonlit night, warm lit windows, gentle starry sky and calm reflections, cinematic realism. No text.",
+        "n": 1,
+        "size": "16:9",
+        "resolution": "1K",
+        "quality": "low",
+        "reference_images": [
+          "<uploaded URL omitted>"
+        ]
+      },
+      "status": "completed",
+      "billing": null,
+      "actual_cost_usd": null,
+      "unit_quote_usd": "0.0019",
+      "sha256": "ec126a6a747256cd0dd05b71925a65c4dfa119109b55acede409c1bc9b03ff52",
+      "elapsed_seconds": 59.83,
+      "scope": "External ToAPIs asset script validates generation and reference edits. PNGs and parameter manifests are ready for import; ArtCraft canvas import and native providers remain untested.",
+      "upstream_repo": "storytold/artcraft",
+      "upstream_sha": "d4e4ac69bbd93d237eaf5d0260bc6a5ff3a5e373",
+      "pixels": [
+        1536,
+        864
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+.toapis-state/
+results/
+node_modules/
+__pycache__/
+
+.hyperframes/
+renders/
