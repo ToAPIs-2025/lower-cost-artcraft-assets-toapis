@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-以 ToAPIs `gpt-image-2-vip / low / 1K / n=1` 复用 ArtCraft 场景。3 张已完成图片，API 报价合计 **$0.0057**；实扣金额待后台核对。
+以 ToAPIs `gpt-image-2-vip / low / 1K / n=1` 复用 ArtCraft 场景。3张 image-2(vip) 生图实扣 **$0.0057**。
 
 独立 ToAPIs 素材脚本完成文生图与参考改图；提供 PNG 和参数清单供导入，ArtCraft 画布导入与原生 Provider 未验收。
 
@@ -24,7 +24,7 @@
 |---|---|---|
 | `gpt-image-2-vip` | `low / 1K / n=1` | **$0.0019** |
 
-3 张已完成图片，API 报价合计 **$0.0057**；实扣金额待后台核对。
+3张 image-2(vip) 生图实扣 **$0.0057**。
 
 [API pricing snapshot](evidence/pricing.json) · [Cost record](evidence/costs.json) · [Original requests](evidence/runs.json)
 
